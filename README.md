@@ -18,7 +18,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/learnjpaandhibernate.git
+git clone https://github.com/CoddingFlux/LearnJpaAndHibarnate.git
 Navigate to the project directory:
 
 bash
