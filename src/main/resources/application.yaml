@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: learn_jpa_and_hibernate  # The name of your Spring Boot application
+
+  h2:
+    console:
+      enabled: true  # Enables the H2 console, which can be accessed at http://localhost:8080/h2-console
+
+  datasource:
+    url: jdbc:h2:mem:testdb  # Sets up an in-memory H2 database named 'testdb'
+    username: renish         # Username for the H2 database
+    password: Admin          # Password for the H2 database
+
+
+  jpa:
+    hibernate:
+      ddl-auto:update
+    show-sql: true
+
+
+logging:
+  level:
+    web: debug
