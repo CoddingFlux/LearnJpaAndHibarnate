@@ -82,6 +82,7 @@ public class SpringJdbcStudentRepo implements SpringJdbcServices {
         }
     }
 
+    
     public List<StudentModel> findAll(){
         try {
             String sqlselect="select * from "+dbName;
